@@ -18,9 +18,9 @@ This project implements a **thread-safe queue** in C++. The queue is designed to
 ## **Installation & Setup**
 Before running the project, ensure that you have the necessary dependencies installed.
 
-### ** 1. Install Required Packages (Ubuntu/Debian)**
+### **Install Required Packages (Ubuntu/Debian)**
 Run the following commands:
-
+```sh
 sudo apt update && sudo apt upgrade -y
 
 # Install C++ compiler and CMake
