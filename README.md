@@ -22,7 +22,7 @@ Before running the project, ensure that you have the necessary dependencies inst
 Run the following commands:
 ```sh
 sudo apt update && sudo apt upgrade -y
-
+```
 # Install C++ compiler and CMake
 sudo apt install -y g++ cmake
 
