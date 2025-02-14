@@ -26,7 +26,7 @@ sudo apt update && sudo apt upgrade -y
 
 ### Install C++ compiler and CMake
 ```sh
-sudo apt install -y g++ cmake
+sudo apt update && sudo apt install build-essential cmake ninja-build pkg-config clang-tidy cppcheck valgrind
 ```
 ### Install Doxygen for documentation
 ```sh
