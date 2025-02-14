@@ -1,4 +1,4 @@
-# Thread-Safe Queue in C++
+# Multi-threaded element queue project (C++/Cmake)
 
 ## Project Overview
 This project implements a **thread-safe queue** in C++. The queue is designed to store **primitive data types** (e.g., `int`, `double`) and supports **blocking and timeout-based retrieval**.
