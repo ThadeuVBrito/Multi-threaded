@@ -23,46 +23,54 @@ Run the following commands:
 ```sh
 sudo apt update && sudo apt upgrade -y
 ```
-# Install C++ compiler and CMake
+
+### Install C++ compiler and CMake
+```sh
 sudo apt install -y g++ cmake
-
-# Install Doxygen for documentation
+```
+### Install Doxygen for documentation
+```sh
 sudo apt install -y doxygen graphviz
-
-# Install testing frameworks
+```
+### Install testing frameworks
+```sh
 sudo apt install -y libgtest-dev cmake
 sudo apt install -y libcppunit-dev
 sudo apt install -y catch2
-
+```
 ## **Building the project**
 Download the project or git clone
 
 Run the following commands:
-
+```sh
 mkdir build && cd build
 cmake ..
 make -j$(nproc)
-
+```
 ## **Building the documentation**
 If you are in root folder, move to build folder:
-
+```sh
 cd build
-
+```
 Then:
-
+```sh
 make doc
 cd ..
 xdg-open docs/html/index.html
+```
 
 ## **Testing**
 To run the template:
+```sh
 ./template
-
+```
 To run all tests:
-
+```sh
 ctest --output-on-failure
-
+```
 To run one by one:
+```sh
 ./test_gtest      # run gtest test
 ./test_cppunit    # run cppunit test
 ./test_catch      # run catch test
+```
